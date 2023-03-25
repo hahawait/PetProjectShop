@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container py-4">
+        <h1 class="mb-4">Каталог</h1>
+        <div class="row">
+            {% for product in products %}
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="{{ product.productimage_set.first.image.url }}" alt="{{ product.name }}" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ product.name }}</h5>
+                            <p class="card-text">{{ product.price }} руб.</p>
+                            <a href="{% url 'product:product_detail' product.slug %}" class="btn btn-primary mb-2">Подробнее</a>
+                            <form method="post" action="{% url 'cart:cart_add' product.slug %}">
+                                {% csrf_token %}
+                                <input type="hidden" name="quantity" value="1">
+                                <button type="submit" class="btn btn-primary">Добавить в корзину</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            {% empty %}
+                <p>Нет товаров</p>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

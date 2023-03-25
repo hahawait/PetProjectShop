@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>Детали заказа #{{ order.id }}</h1>
+        <p>Дата заказа: {{ order.created_at }}</p>
+        <p>Статус заказа: {{ order.status }}</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Наименование товара</th>
+                    <th>Количество</th>
+                    <th>Сумма</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in order.orderitem_set.all %}
+                
+                <tr>
+                    <td>{{ item.product.name }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td>{{ item.price }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <p>Общая стоимость: {{ order.get_total }}</p>
+    </div>
+{% endblock %}

@@ -4,16 +4,22 @@ from django.shortcuts import render, get_object_or_404, redirect
 
 from cart.models import Cart
 from .models import Order, OrderItem
+from .tasks import send_order_confirmation_email
 
 
 @login_required
 def order_create(request):
     cart = Cart.objects.get(user=request.user)
+
     if request.method == 'POST':
         # Извлекаем из формы необходимые данные
         status = 'created'
         total_price = request.POST.get('total_price')
         order = Order.objects.create(user=request.user, cart=cart, status=status, total_price=total_price)
+
+        # Отправляем письмо на почту пользователя
+        send_order_confirmation_email.delay(order.id)
+
         # Получаем список элементов корзины и сохраняем их в элементах заказа
         cart_items = cart.items.all()
         for item in cart_items:

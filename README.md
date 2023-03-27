@@ -20,8 +20,15 @@ https://github.com/hahawait/PetProjectShop
 5. Запустите сервер:
 **python manage.py runserver**
 
-Откройте браузер и перейдите по адресу http://localhost:8000/ или http://127.0.0.1:8000/
+### UPD
+Для отправки писем после создания заказа понадобится установить и запустить RabbitMQ, Celery, Flower (для мониторинга). Последние два устанавливаются во 2 пункте "Установка и запуск проекта".
 
+1. Запуск Celery: celery -A server worker -l info
+2. Запуск Flower: celery -A server flower
+3. Запуск RabbitMQ (из директории с самим RabbitMQ): rabbitmq-service.bat start
+
+Я запускал на через cmd на Windows 10 и GitBash, если возникнут проблемы шерстить офф доки и гайды индусов на ютубе.
 
 ### **Использование API**
 1. Реализованы CRUD-запросы для каждого приложения. 
+

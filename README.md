@@ -23,14 +23,15 @@ https://github.com/hahawait/PetProjectShop
 ### UPD
 Для отправки писем после создания заказа понадобится установить и запустить RabbitMQ, Celery, Flower (для мониторинга). Последние два устанавливаются во 2 пункте "Установка и запуск проекта".
 
-1. Запуск Celery: celery -A server worker -l info
+1. Запуск Celery: **celery -A server worker -l info**
 
 UPD если не работает пробуй (eventlet лежит в requirements.txt, устанавливать отдельно не нужно):
-celery -A project worker -l info -P eventlet
 
-2. Запуск Flower: celery -A server flower
+**celery -A project worker -l info -P eventlet**
 
-3. Запуск RabbitMQ (из директории с самим RabbitMQ): rabbitmq-service.bat start
+2. Запуск Flower: **celery -A server flower**
+
+3. Запуск RabbitMQ (из директории с самим RabbitMQ): **rabbitmq-service.bat start**
 
 Я запускал через cmd на Windows 10 и GitBash, если возникнут проблемы шерстить офф доки и гайды индусов на ютубе.
 

@@ -19,6 +19,11 @@ django-templated-mail==1.1.1
 djangorestframework==3.14.0
 djangorestframework-simplejwt==4.8.0
 djoser==2.1.0
+dnspython==2.3.0
+eventlet==0.33.3
+flower==1.2.0
+greenlet==2.0.2
+humanize==4.6.0
 idna==3.4
 itypes==1.2.0
 Jinja2==3.1.2
@@ -26,6 +31,7 @@ kombu==5.2.4
 MarkupSafe==2.1.2
 oauthlib==3.2.2
 Pillow==9.4.0
+prometheus-client==0.16.0
 prompt-toolkit==3.0.38
 pycparser==2.21
 PyJWT==2.6.0
@@ -37,6 +43,7 @@ six==1.16.0
 social-auth-app-django==4.0.0
 social-auth-core==4.4.0
 sqlparse==0.4.3
+tornado==6.2
 tzdata==2022.7
 uritemplate==4.1.1
 urllib3==1.26.15

@@ -11,7 +11,7 @@ def send_order_confirmation_email(order_id):
     order = Order.objects.get(id=order_id)
     subject = 'Order nr. {}'.format(order_id)
     message = 'Dear {},\n\nYou have successfully placed an order.\
-                Your order id is {}.'.format(order.first_name,
+                Your order id is {}.'.format(order.user,
                                             order.id)
     mail_sent = send_mail(subject,
                         message,

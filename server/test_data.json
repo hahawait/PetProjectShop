@@ -1,0 +1,490 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-06-20T16:14:39.369Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "user",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-06-20T16:14:52.271Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "staf_user",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-06-20T16:15:03.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "NIKE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-06-20T16:15:07.656Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "ADIDAS",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-06-20T16:15:16.032Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "���������",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-06-20T16:17:10.930Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "AIR FORCE ONE LOW",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-06-20T16:17:22.685Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "AIR FORCE ONE LOW",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-06-20T16:18:01.781Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "AIR FORCE ONE LOW Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-06-20T16:18:35.549Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "AIR FORCE ONE LOW Image",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-06-20T16:19:08.032Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "AIR FORCE ONE LOW Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-06-20T16:19:16.341Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "AIR FORCE ONE LOW Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-06-20T16:19:28.651Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "AIR FORCE ONE LOW Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-06-20T16:21:28.091Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "STREET STYLE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-06-20T16:21:37.242Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "STREET STYLE Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-06-20T16:21:57.114Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "STREET STYLE Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-06-20T16:22:59.080Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "STREET STYLE Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-06-20T17:04:42.414Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "PUMA",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-06-20T17:05:33.842Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "SUEDE CLASSIC",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-06-20T17:05:44.007Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "SUEDE CLASSIC Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-06-20T17:06:32.119Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "SUEDE CLASSIC Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-06-20T17:06:44.819Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "STREET STYLE Image",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-06-20T17:50:41.648Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "SUEDE CLASSIC Image",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$7wYGZ5FGVSjMYwsM1z3wgn$N/ULDNR/eixZlOkg0kXyAFFWLulLQ2/AZmScb9Xd8L0=",
+    "last_login": "2023-06-20T16:14:00.055Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-06-20T16:13:51.968Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$hPgUW6TfJ69Ud0YkiIralE$ko/RDLCAXx0tfAEN4j/zhWLx2TCpIqGvfuX9vSHSGZw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-06-20T16:14:38.723Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$PpPPWnKuyhYaK4bSAJV2gT$1u3K67gJ9ufX6i8YJ/lvERdmF6PKQPWPigW20B33qKw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "staf_user",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-06-20T16:14:51.660Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9scsjgv25xlcrspikovukq0jxwo37vho",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDS4kBduu8ZyAwzSNVAUtqV8e7apAvd_vfef6mA25rD1mQJM6uLMur0uxHGh5Qd8B3LrepYy7rMpHdFH7TpqbI8r4f7d5Cx5W_towj22KEjij0mcWdyMLD1DDQ4yyARRpM6TkRjAhjBimFvou3ZO1LvDxvkOQA:1qBdzU:ZCCJfjIaKI-xab1vKFezNjODbgltBSaG6l1fzmliepg",
+    "expire_date": "2023-07-04T16:14:00.155Z"
+  }
+},
+{
+  "model": "product.brand",
+  "pk": 1,
+  "fields": {
+    "name": "NIKE",
+    "slug": "nike"
+  }
+},
+{
+  "model": "product.brand",
+  "pk": 2,
+  "fields": {
+    "name": "ADIDAS",
+    "slug": "adidas"
+  }
+},
+{
+  "model": "product.brand",
+  "pk": 3,
+  "fields": {
+    "name": "PUMA",
+    "slug": "puma"
+  }
+},
+{
+  "model": "product.category",
+  "pk": 1,
+  "fields": {
+    "name": "Кроссовки",
+    "slug": "krossovki"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 1,
+  "fields": {
+    "brand": 1,
+    "category": 1,
+    "name": "AIR FORCE ONE LOW",
+    "slug": "air-force-one-low",
+    "description": "Кроссовки Nike Air Force 1 Low предназначены для повседневной носки, нежели занятия спортом. О коллаборации двух брендов известно очень мало, однако проследить сотрудничество мировых компаний можно по отличительному, эффектному цвету замши с серым оттенком и украшение совместным брендингом сбоку. Выполнены из искусственной замши, с перфорацией возле пальцев, благодаря которой кроссовки обладают воздухопроницаемыми свойствами. Система амортизации Nike Air обеспечивает легкость на протяжении всего дня. Резиновая подошва.",
+    "price": "16000.00"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 2,
+  "fields": {
+    "brand": 2,
+    "category": 1,
+    "name": "STREET STYLE",
+    "slug": "street-style",
+    "description": "Кроссовки Adidas STREET STYLE – отлично подойдут для повседневной носки и занятий спортом. Верхняя часть кроссовок выполнена из текстильного материала и синтетических накладок для прочности. Мягкий бортик и классическая шнуровка обеспечивают удобную посадку, комфорт и фиксацию стопы. Фигурная подошва, выполненная по технологии Boost, смягчает ударную нагрузку и хорошо амортизирует при ходьбе. В подошву также интегрирована вставка из TPU, улучшающая фиксацию стопы в колодке. В задник вшита специальная петелька, которая служит для удобства надевания обуви.",
+    "price": "9000.00"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 3,
+  "fields": {
+    "brand": 3,
+    "category": 1,
+    "name": "SUEDE CLASSIC",
+    "slug": "suede-classic",
+    "description": "Кроссовки Puma Suede Classic – сочетают в себе классический и удобный для ношения силуэт. Верх модели выполнен из замши и кожи. Классическая шнуровка поможет придать нужную фиксацию на ноге. Фирменный брендинг PUMA на язычках, печатный логотип сбоку и на задниках, а также культовая полоса Formstrip по бокам. Прочная подошва из резины гарантирует оптимальный комфорт и хорошее сцепление с различными поверхностями. Удобная мягкая стелька для комфорта в течение дня.",
+    "price": "7000.00"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "image": "product_images/nike-air-force-1-low-33777-1.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "image": "product_images/nike-air-force-1-low-33777-2.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 4,
+  "fields": {
+    "product": 1,
+    "image": "product_images/nike-air-force-1-low-33777-3.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "image": "product_images/adidas-x9000l4-37367-1.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "image": "product_images/adidas-x9000l4-37367-2.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 7,
+  "fields": {
+    "product": 2,
+    "image": "product_images/adidas-x9000l4-37367-3.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 8,
+  "fields": {
+    "product": 3,
+    "image": "product_images/puma-suede-classic-33101-1.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "image": "product_images/puma-suede-classic-33101-2.jpg"
+  }
+},
+{
+  "model": "product.productimage",
+  "pk": 10,
+  "fields": {
+    "product": 3,
+    "image": "product_images/puma-suede-classic-33101-3.jpg"
+  }
+}
+]
